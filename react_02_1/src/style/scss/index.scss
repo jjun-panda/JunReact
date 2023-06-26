@@ -1,0 +1,15 @@
+@import url("http://www.jjuns-c.com/webColor.css");
+@import url("http://www.jjuns-c.com/webFont.css");
+@import url("http://www.jjuns-c.com/webReset.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-primary-normal);
+}
+
+hr {
+  margin: 1rem 0;
+  height: .125rem;
+  background-color: var(--light-text-normal);
+}

@@ -1,0 +1,28 @@
+.barMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    .barBtn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+        padding-bottom: 1rem;
+
+        p {
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            gap: 0.5rem;
+            display: flex;
+            background-color: var(--light-status-alert);
+            &:nth-child(2) {
+                background-color: var(--light-status-warning);
+            }
+            &:nth-child(3) {
+                background: var(--light-status-success);
+            }
+        }
+    }
+}
