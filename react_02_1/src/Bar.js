@@ -1,4 +1,4 @@
-import './style/css/bar.css'
+import './style/scss/bar.scss'
 function Bar() {  
   return (
     <div className='barMain'>

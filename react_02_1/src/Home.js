@@ -1,14 +1,8 @@
-import logo from './img/logo.svg';
 import TodoList from './TodoList';
 import Bar from './Bar';
-import './style/css/home.css';
-import { useState } from 'react';
+import './style/scss/home.scss';
 
 function Home() {
-  const [todoList, setTodoList] = useState([
-    {seq:1, work:'설거지하기', done:false}
-  ]);
-  
   return (
     <div className='container'>
       <div className='post'>
@@ -19,7 +13,7 @@ function Home() {
         {/* post box */}
         <div className='todoBox'>
           {/* <img src={logo} className="logoImg" alt="logo" /> */}
-          <TodoList todoList={todoList} />
+          <TodoList />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
-/* 체크박스_1 */
+/* 체크박스 */
 .label {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
 }
@@ -8,7 +8,6 @@
     display: none;
 
     + em {
-        margin-right: 0.5rem;
         background-color: var(--light-primary-assistive);
         height: 2rem;
         padding: 0 0.5rem;

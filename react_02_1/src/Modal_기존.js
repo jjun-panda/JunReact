@@ -1,6 +1,7 @@
 import { useState } from "react";
-import './style/css/modal.css';
+import './style/scss/modal.scss';
 import modalIcon from "./img/ico_success_fill.svg";
+import AddBtn from './AddBtn'
 
 function Modal({ todoList, setTodoList }) {
   // 할일 새로 추가하기
@@ -18,7 +19,7 @@ function Modal({ todoList, setTodoList }) {
     if (newWork.trim() !== "") {
       setTodoList((todoCheck) => [
         ...todoCheck,
-        { seq: todoCheck.length + 1, work: newWork, done: false },
+        { num: todoCheck.length + 1, work: newWork, done: false },
       ]);
       setNewWork("");
       setIsOpen(false);
@@ -33,6 +34,7 @@ function Modal({ todoList, setTodoList }) {
   return (
     <>
       <button onClick={openModal} className="todoBtn">할일 추가</button>
+      <AddBtn todoList={todoList} setTodoList={setTodoList} />
       {isOpen && (
         <div className="modal">
           <div className="modalContent">
