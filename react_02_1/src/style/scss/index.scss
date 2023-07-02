@@ -1,6 +1,6 @@
-@import url("http://www.jjuns-c.com/webColor.css");
-@import url("http://www.jjuns-c.com/webFont.css");
-@import url("http://www.jjuns-c.com/webReset.css");
+@import "./common/color.scss";
+@import "./common/common.scss";
+@import "./common/font.scss";
 
 body {
   margin: 0;
@@ -12,4 +12,8 @@ hr {
   margin: 1rem 0;
   height: .125rem;
   background-color: var(--light-text-normal);
+}
+
+html {
+  background-color: var(--light-primary-normal);
 }

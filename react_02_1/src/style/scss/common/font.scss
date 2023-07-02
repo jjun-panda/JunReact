@@ -1,0 +1,370 @@
+// Noto Sans(Google Fonts)
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap");
+
+// Pretendatd Variable
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: local('Pretendard Variable'), url('../../font/PretendardVariable.woff2'), format('woff2-variations');
+}
+
+:root {
+    --font: "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+        system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+        "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+html {
+    font-family: var(--font);
+    font-weight: 500;
+    color: var(--light-text-normal);
+}
+
+a, p, span {
+    font-family: var(--font);
+    font-weight: 500;
+}
+
+button, b, strong {
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+/* Title */
+.title40x {
+    font-family: var(--font);
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.title32x {
+    font-family: var(--font);
+    font-size: 2rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.title24x {
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.title20x {
+    font-family: var(--font);
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.title18x {
+    font-family: var(--font);
+    font-size: 1.125rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.title16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.title14x {
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+/* Body */
+.bodyB24x {
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body24x {
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.bodyB20x {
+    font-family: var(--font);
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body20x {
+    font-family: var(--font);
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.bodyB18x {
+    font-family: var(--font);
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body18x {
+    font-family: var(--font);
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.bodyB16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body16x_story {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+}
+
+.body16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.bodyB14x {
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body14x {
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.bodyB12x {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body12x {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+}
+
+.body12x_discounted-price {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-decoration-line: line-through;
+}
+
+/* Tag */
+.tag14x {
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.tag12x {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+.tag10x {
+    font-family: var(--font);
+    font-size: 0.625rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+/* Checkbox */
+.checkbox16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+.checkbox14x {
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+/* Text-fields */
+.fieldB16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+.field16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+.field12x {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+.field10x {
+    font-family: var(--font);
+    font-size: 0.625rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+/* Button */
+.button16x {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.button14x {
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.caption {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
